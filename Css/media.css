@@ -1,0 +1,96 @@
+
+/* Mobile */
+@media(max-width:576px)
+ {
+    .pricing-table .Corporate{position:relative; top: -20px; margin-top: 37px;}
+   
+    .upper-bar .info:first-child{margin: 15px 15px 0 15px;}
+   
+    .slider .carousel-inner { display: flex; align-items: center; }
+
+    .slider .carousel-inner h1{ font-size: 38px; max-width: 100%;left: 29px;}
+
+    .overview{ padding:  40px 0; }
+
+    .Features{padding: 40px 0;}
+
+    .fatured-work{ padding-top: 40px;}
+
+    .fatured-work p , .overview p{ font-size: 17px; width: 88%;}
+  
+    .fatured-work h2 , .overview h2{ font-size:29px ;}
+
+    .footer{ padding:9px 0;}
+
+    .contact-us{ padding-bottom: 50px;}
+
+    .choose-us h2 {
+      margin: 0px 2px 15px 5px;
+      padding: 0px 31px 0 20px;
+  }
+  .choose-us p {
+   margin-bottom:0px;
+  }
+
+  .contact-us {
+   padding: 40px 0;
+ }
+ .contact-us p{
+    margin-left: 13px;
+ }
+
+ .footer .contact li {
+padding-bottom: 18px;
+ }
+ .copyright ul li {
+   margin-left: 12px;
+   font-size: 17px;}
+}
+
+ /* Small Screen  */
+@media(min-width:577px) and (max-width:767px)
+
+{
+   .container, .container-sm {max-width: 708px;}
+    .pricing-table .Corporate{position:relative; top: -20px; margin-top: 37px;}
+
+    .upper-bar .info:first-child{margin: 15px 15px 0 15px;}
+
+    .fatured-work p , .overview p{ font-size: 17px; width: 89%;}
+
+    .fatured-work h2 , .overview h2 {font-size:29px ;}
+
+    .footer{ padding: 9px 0;}
+
+    .contact-us{ padding-bottom: 50px 0;}
+
+    .choose-us h2 {
+      margin:  0px 2px 15px 5px;
+      padding: 0px 31px 0 20px;}
+
+   .choose-us p {font-size: 18px;}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+ {
+     .footer h2{font-size: 24px;}
+
+     .choose-us h2 {
+    margin: 0px 30px 30px 0px;
+    padding: 64px 64px 0 28px;}
+}
+
+
+@media(min-width:768px) and (max-width:991px)
+ {
+   .container, .container-md, .container-sm {max-width: 867px;}
+
+   .footer h2{font-size: 24px;}
+
+   .choose-us h2 {
+      margin:  0px 2px 15px 5px;
+      padding: 0px 31px 0 20px;}
+
+   .choose-us p {font-size: 20px;}
+ }

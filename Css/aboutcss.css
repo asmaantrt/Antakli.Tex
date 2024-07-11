@@ -1,0 +1,50 @@
+/* body{
+    height: 3000PX;
+} */
+
+
+.about {
+    background-image: url("../images/interior-design-1508276_1920.jpg") ;
+    border-radius: 120px 20px 120px 20px;
+    position: relative;
+    display: flex;
+    
+    /* width: 100%;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.about::before {
+    border-radius: 120px 20px 120px 20px;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+   top:0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+}
+.about h1{
+    position: absolute;
+    color: white;
+    z-index: 5;
+    top: 63px;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+.about-us{background-color: #f0f5f7;}
+
+.loo  { text-align: center;padding: 27px 30px;}
+
+.loo p{
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: bold;
+    padding: 27px 30px;
+    border-right:  5px solid  #34495e;
+    border-top:  5px solid  #34495e;
+
+}
+
+.loo p span{ color: #18dcff; font-weight: bold;}  
